@@ -1,54 +1,66 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Chyll.ai Showcase Website
 
-Currently, two official plugins are available:
+A modern and minimalist showcase website built to demonstrate front-end skills and design sensibility, tailored for an interview with **Chyll.ai**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## Expanding the ESLint configuration
+This site presents:
+- My technical skills and UI/UX strengths
+- My motivation to join Chyll.ai
+- A responsive and animated design, inspired by Chyll.ai’s clean aesthetic
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React** – UI library for building components
+- **TypeScript** – Typed superset of JavaScript
+- **Vite** – Lightning-fast development server and bundler
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **Framer Motion** – For animations and transitions
+- **Vitest** – Lightweight unit testing framework
+- **React Testing Library** – For component-level testing
+
+## 🧠 Features
+
+- Sticky pill-shaped navbar with active section detection
+- Responsive layout and mobile-first design
+- Scroll-based section highlighting
+- Clean code structure and reusable components
+- Simple deployment-ready configuration
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/chyll-showcase.git
+cd chyll-showcase
+
+# Install dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧪 Running the App
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+# Start development server
+npm run dev
 ```
+
+## ✅ Running Tests
+
+```bash
+# Run unit tests
+npx vitest
+```
+
+## 🛰 Deployment
+
+Easily deploy via [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/) by connecting your GitHub repository.
+
+## 👤 Author
+
+Created by [Delhia Gbelidji](https://www.delhiagbelidji.com/)
+
+## 📝 License
+
+This project is open-source and available under the MIT License.
